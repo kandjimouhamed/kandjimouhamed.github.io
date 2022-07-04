@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imc.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+        <h2 class="title">Verifiez Votre Poids</h2>
+        <form action="" class="form">
+            <div class="poid">
+                <label for="poid">Poids (kg)</label>
+                <input type="number" id="poid" name="poid">
+            </div>
+            <div class="taille">
+                <label for="taille">Taille (cm)</label>
+                <input type="number" id="taille" name="taille">
+            </div>
+            <p class="verification" id="verification"></p>
+            <div class="calcule">
+                <button type="button" id="btn">Calculer votre IMC</button>
+            </div>
+        </form>
+        <h2 class="result">Votre IMC</h2>
+        <h3 id="imc" class="imc"></h3>
+        <p id="msg" class="msg"></p>
+   </div>
+    <script src="./imc.js"></script>
+</body>
+</html>
